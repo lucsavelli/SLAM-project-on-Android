@@ -2,7 +2,7 @@
 2D SLAM (Simultaneous Localisation and Mapping) on an Android device.
 
 ### The mapping robot
-The robot is driven by a **dsPic33 microcontroller**, and gets distance and angle environnement data from its **360° - 6hz LIDAR sensor**. The robot communicates with the android device through a **bluetooh transmitter**.
+The robot is driven by a dsPic33 microcontroller, and gets distance and angle environnement data from its 360° - 6hz LIDAR sensor. The robot communicates with the android device through a bluetooh transmitter.
 
 
 ![robot](https://cloud.githubusercontent.com/assets/21124351/19410187/d3b4f364-92e5-11e6-8962-830e403a69e2.jpg)
@@ -33,7 +33,7 @@ A few moments later, the red points have been removed.
 
 
 
-*You will find the sourcecode of the project in the **app/src/main/java/com/test/luc/projetcartographie/** directory.* 
+*You will find the sourcecode of the project in the **app/src/main/java/com/test/luc/projetcartographie/** directory. 
 
 
 
