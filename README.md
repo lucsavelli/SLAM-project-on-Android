@@ -18,7 +18,7 @@ The app opens a Bluetooth socket to receive robot data. Once connected, it decod
 
 ![terrain](https://cloud.githubusercontent.com/assets/21124351/19410190/dbcafb7a-92e5-11e6-8725-482abe0237fb.jpg)
 
-The app is able to detect LIDAR spurious data : every 5 seconds, all measured points with an occurence lower than a fixed level are removed. 
+The app is able to detect LIDAR spurious data : every 5 seconds, all measured points with a lower occurence than a fixed level are removed. 
 
 
 Below the map displayed as seen by the robot : red points have a too weak occurence.
@@ -33,7 +33,7 @@ A few moments later, the red points have been removed.
 
 
 
-You will find the sourcecode of the project in the **app/src/main/java/com/test/luc/projetcartographie/** directory. 
+You will find the sourcecode of the project in the [app/src/main/java/com/test/luc/projetcartographie/](https://github.com/lucsavelli/SLAM-project-on-Android/tree/master/app/src/main/java/com/test/luc/projetcartographie) directory. 
 
 
 
