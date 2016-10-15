@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:textSize="32dp"-->
+        <!--android:text="Projet Cartographie sous Android"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Projet Cartographie sous Android"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textStyle="italic"
+        android:text="Cartographie d'un terrain inconnu, plat, carré à l'aide d'un robot de type char piloté ou se déplaçant en évitant les obstacles de façon autonome, et équipé d'un capteur LIDAR infrarouge. Communication robot - appareil android réalisée via Bluetooth. "/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="11dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Taille terrain (mm): "/>
+
+    <EditText
+        android:id="@+id/sizeTerrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="11dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:text="4000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="11dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Plus petite distance détectable (mm): "/>
+    <EditText
+        android:id="@+id/ppdDetectable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="11dp"
+        android:inputType="number"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="20"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Position de départ en Y :" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Choix style affichage:" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="SCAN DEVICES"/>
+
+</LinearLayout>
