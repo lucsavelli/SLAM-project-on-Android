@@ -1,5 +1,5 @@
 # SLAM-project-on-Android
-2D SLAM (Simultaneous Localisation and Mapping) on an Android device.
+2D SLAM (Simultaneous Localization And Mapping) on an Android device.
 
 ### The mapping robot
 The robot is driven by a dsPic33 microcontroller, and gets distance and angle environnement data from its 360° - 6hz LIDAR sensor. The robot communicates with the android device through a bluetooh transmitter.
