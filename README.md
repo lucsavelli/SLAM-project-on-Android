@@ -33,7 +33,7 @@ A few moments later, the red points have been removed.
 
 
 
-*You will find the sourcecode of the project in the **app/src/main/java/com/test/luc/projetcartographie/** directory. 
+You will find the sourcecode of the project in the **app/src/main/java/com/test/luc/projetcartographie/** directory. 
 
 
 
